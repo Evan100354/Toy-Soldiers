@@ -1,7 +1,9 @@
 public interface IBurnable
 {
     bool isBurning { get; set; }
-    void Burn();
 
-    void Spread();
+    bool isCatchingFire { get; set; }
+
+    void Burn();
+    void CatchFire(bool guaranteedToCatchFire);
 }

@@ -8,7 +8,7 @@ public class BurnTestCircle : MonoBehaviour
     {
         if(collision.gameObject.GetComponent<IBurnable>() != null)
         {
-            collision.gameObject.GetComponent<IBurnable>().isBurning = true;
+            collision.gameObject.GetComponent<IBurnable>().CatchFire(true);
         }
     }
 }
