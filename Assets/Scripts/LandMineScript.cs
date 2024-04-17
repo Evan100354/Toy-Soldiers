@@ -9,6 +9,7 @@ public class LandMineScript : MonoBehaviour
         if(collision.GetComponent<IExplodable>() != null)
         {
             collision.GetComponent<IExplodable>().Explode();
+            Destroy(this.gameObject);
         }
     }
 }
