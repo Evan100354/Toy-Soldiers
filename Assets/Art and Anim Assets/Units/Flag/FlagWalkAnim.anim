@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ChaffUnitWalk
+  m_Name: FlagWalkAnim
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,23 +21,23 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 295655898, guid: 5241d876a7c48e043ae1333827e10acb, type: 3}
+      value: {fileID: 359093738, guid: 0c69f5053787e0e47a38270360af00b1, type: 3}
     - time: 0.083333336
-      value: {fileID: 1598836250, guid: 5241d876a7c48e043ae1333827e10acb, type: 3}
+      value: {fileID: 2136434982, guid: 0c69f5053787e0e47a38270360af00b1, type: 3}
     - time: 0.16666667
-      value: {fileID: -825206092, guid: 5241d876a7c48e043ae1333827e10acb, type: 3}
+      value: {fileID: -1815436291, guid: 0c69f5053787e0e47a38270360af00b1, type: 3}
     - time: 0.25
-      value: {fileID: 1344849386, guid: 5241d876a7c48e043ae1333827e10acb, type: 3}
-    - time: 0.31666666
-      value: {fileID: 1343436134, guid: 5241d876a7c48e043ae1333827e10acb, type: 3}
+      value: {fileID: 1744409565, guid: 0c69f5053787e0e47a38270360af00b1, type: 3}
+    - time: 0.33333334
+      value: {fileID: -1130653193, guid: 0c69f5053787e0e47a38270360af00b1, type: 3}
     - time: 0.43333334
-      value: {fileID: 1552202707, guid: 5241d876a7c48e043ae1333827e10acb, type: 3}
+      value: {fileID: -1973454734, guid: 0c69f5053787e0e47a38270360af00b1, type: 3}
     - time: 0.5
-      value: {fileID: 1389713382, guid: 5241d876a7c48e043ae1333827e10acb, type: 3}
-    - time: 0.55
-      value: {fileID: 295655898, guid: 5241d876a7c48e043ae1333827e10acb, type: 3}
+      value: {fileID: -2053468782, guid: 0c69f5053787e0e47a38270360af00b1, type: 3}
+    - time: 0.53333336
+      value: {fileID: 359093738, guid: 0c69f5053787e0e47a38270360af00b1, type: 3}
     attribute: m_Sprite
-    path: Chaff-Sheet_1
+    path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
@@ -49,7 +49,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 3044086603
+      path: 0
       attribute: 0
       script: {fileID: 0}
       typeID: 212
@@ -58,20 +58,20 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 295655898, guid: 5241d876a7c48e043ae1333827e10acb, type: 3}
-    - {fileID: 1598836250, guid: 5241d876a7c48e043ae1333827e10acb, type: 3}
-    - {fileID: -825206092, guid: 5241d876a7c48e043ae1333827e10acb, type: 3}
-    - {fileID: 1344849386, guid: 5241d876a7c48e043ae1333827e10acb, type: 3}
-    - {fileID: 1343436134, guid: 5241d876a7c48e043ae1333827e10acb, type: 3}
-    - {fileID: 1552202707, guid: 5241d876a7c48e043ae1333827e10acb, type: 3}
-    - {fileID: 1389713382, guid: 5241d876a7c48e043ae1333827e10acb, type: 3}
-    - {fileID: 295655898, guid: 5241d876a7c48e043ae1333827e10acb, type: 3}
+    - {fileID: 359093738, guid: 0c69f5053787e0e47a38270360af00b1, type: 3}
+    - {fileID: 2136434982, guid: 0c69f5053787e0e47a38270360af00b1, type: 3}
+    - {fileID: -1815436291, guid: 0c69f5053787e0e47a38270360af00b1, type: 3}
+    - {fileID: 1744409565, guid: 0c69f5053787e0e47a38270360af00b1, type: 3}
+    - {fileID: -1130653193, guid: 0c69f5053787e0e47a38270360af00b1, type: 3}
+    - {fileID: -1973454734, guid: 0c69f5053787e0e47a38270360af00b1, type: 3}
+    - {fileID: -2053468782, guid: 0c69f5053787e0e47a38270360af00b1, type: 3}
+    - {fileID: 359093738, guid: 0c69f5053787e0e47a38270360af00b1, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.56666666
+    m_StopTime: 0.55
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

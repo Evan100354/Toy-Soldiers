@@ -1,15 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Dynamic;
-using Unity.VisualScripting;
-using UnityEditor;
 using UnityEngine;
 
-public class ChaffUnit : MonoBehaviour, IExplodable
+public class Unit : MonoBehaviour, IExplodable
 {
     public float speed;
 
-    public float gibForce = 10f;
+    public float gibForce = 2f;
 
     [SerializeField]
     private Transform transform;
@@ -19,14 +16,14 @@ public class ChaffUnit : MonoBehaviour, IExplodable
     // Update is called once per frame
     void Update()
     {
-        transform.position += transform.right * speed * Time.deltaTime;
+        MoveForward();
     }
 
     public void Explode()
     {
         for (int i = 0; i < gibs.Length; i++)
         {
-            Vector2 direction = new Vector2((float)Random.Range(-3,3), (float)Random.Range(0,3));
+            Vector2 direction = new Vector2((float)Random.Range(-3, 3), (float)Random.Range(0, 3));
 
             GameObject gib = Instantiate(gibs[i], transform.position, transform.rotation);
 
@@ -34,5 +31,10 @@ public class ChaffUnit : MonoBehaviour, IExplodable
         }
 
         Destroy(gameObject);
+    }
+
+    public void MoveForward()
+    {
+        transform.position += transform.right * speed * Time.deltaTime;
     }
 }

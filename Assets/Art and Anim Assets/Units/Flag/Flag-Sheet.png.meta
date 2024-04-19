@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5241d876a7c48e043ae1333827e10acb
+guid: 0c69f5053787e0e47a38270360af00b1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Chaff-Sheet_0
+      name: Flag-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 320
-        height: 320
+        width: 550
+        height: 262
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b304ab4b8821c124aaf453c6b4fa0895
-      internalID: 1389713382
+      spriteID: 7a7dbfba3f576784b837af55deefb319
+      internalID: 359093738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chaff-Sheet_1
+      name: Flag-Sheet_1
       rect:
         serializedVersion: 2
-        x: 320
+        x: 550
         y: 0
-        width: 320
-        height: 320
+        width: 550
+        height: 262
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f738e0c881eaa4f44ab074a85113477d
-      internalID: 295655898
+      spriteID: dde99883d4ffa31449978a54615283d7
+      internalID: 2136434982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chaff-Sheet_2
+      name: Flag-Sheet_2
       rect:
         serializedVersion: 2
-        x: 640
+        x: 1100
         y: 0
-        width: 320
-        height: 320
+        width: 550
+        height: 262
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edd82ed5e12a3744ea870fe54c8d069b
-      internalID: 1598836250
+      spriteID: 6d741eaac4de7cd488d16f797897f343
+      internalID: -1815436291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chaff-Sheet_3
+      name: Flag-Sheet_3
       rect:
         serializedVersion: 2
-        x: 960
+        x: 1650
         y: 0
-        width: 320
-        height: 320
+        width: 550
+        height: 262
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 751a63b51144e394589e2140ffac8e03
-      internalID: -825206092
+      spriteID: 656a0c5369d9c95469b4ae39b7211703
+      internalID: 1744409565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chaff-Sheet_4
+      name: Flag-Sheet_4
       rect:
         serializedVersion: 2
-        x: 1280
+        x: 2200
         y: 0
-        width: 320
-        height: 320
+        width: 550
+        height: 262
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 318c2ca7f8df3df45933c8973c6494ea
-      internalID: 1344849386
+      spriteID: 5174b94ffd7a50745be8bae0010d37f8
+      internalID: -1130653193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chaff-Sheet_5
+      name: Flag-Sheet_5
       rect:
         serializedVersion: 2
-        x: 1600
+        x: 2750
         y: 0
-        width: 320
-        height: 320
+        width: 550
+        height: 262
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24dad9e85df80ca4fbc67c96a282c646
-      internalID: 1343436134
+      spriteID: c8de7fec1810e474d8bd254761f5f176
+      internalID: -1973454734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chaff-Sheet_6
+      name: Flag-Sheet_6
       rect:
         serializedVersion: 2
-        x: 1920
+        x: 3300
         y: 0
-        width: 320
-        height: 320
+        width: 550
+        height: 262
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,8 +250,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de4e683d8371f5844808f8796fb9bce6
-      internalID: 1552202707
+      spriteID: a2b4f31fb519abc4e9708c73de35b8a0
+      internalID: -2053468782
       vertices: []
       indices: 
       edges: []
@@ -267,13 +267,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Chaff-Sheet_0: 1389713382
-      Chaff-Sheet_1: 295655898
-      Chaff-Sheet_2: 1598836250
-      Chaff-Sheet_3: -825206092
-      Chaff-Sheet_4: 1344849386
-      Chaff-Sheet_5: 1343436134
-      Chaff-Sheet_6: 1552202707
+      Flag-Sheet_0: 359093738
+      Flag-Sheet_1: 2136434982
+      Flag-Sheet_2: -1815436291
+      Flag-Sheet_3: 1744409565
+      Flag-Sheet_4: -1130653193
+      Flag-Sheet_5: -1973454734
+      Flag-Sheet_6: -2053468782
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
