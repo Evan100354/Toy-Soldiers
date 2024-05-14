@@ -485,6 +485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   winText: {fileID: 1322308707}
   flagBearerRb: {fileID: 1193479664}
+  anim: {fileID: 1694663135}
 --- !u!61 &1222846058
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -591,7 +592,7 @@ Transform:
   m_GameObject: {fileID: 1222846056}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.92, y: -0.51, z: 0}
+  m_LocalPosition: {x: 2.81, y: -0.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1047,6 +1048,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1694663135 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6640502495483266908, guid: c2676ae153477c34bb536a78f6090f1f, type: 3}
+  m_PrefabInstance: {fileID: 7178561712140966594}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7178561712140966594
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1055,6 +1061,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3789108943782507075, guid: c2676ae153477c34bb536a78f6090f1f, type: 3}
+      propertyPath: m_TagString
+      value: FlagUnitAnim
+      objectReference: {fileID: 0}
     - target: {fileID: 5587918872176439842, guid: c2676ae153477c34bb536a78f6090f1f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.92
@@ -1098,6 +1108,10 @@ PrefabInstance:
     - target: {fileID: 8609796684709681701, guid: c2676ae153477c34bb536a78f6090f1f, type: 3}
       propertyPath: m_Name
       value: Flag Unit
+      objectReference: {fileID: 0}
+    - target: {fileID: 8609796684709681701, guid: c2676ae153477c34bb536a78f6090f1f, type: 3}
+      propertyPath: m_TagString
+      value: FlagUnit
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
