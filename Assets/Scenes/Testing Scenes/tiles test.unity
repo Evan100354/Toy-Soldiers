@@ -485,7 +485,7 @@ GameObject:
   - component: {fileID: 674368480}
   - component: {fileID: 674368479}
   - component: {fileID: 674368481}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Collision map
   m_TagString: Untagged
   m_Icon: {fileID: 0}
