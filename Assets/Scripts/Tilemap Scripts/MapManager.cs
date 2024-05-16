@@ -23,6 +23,7 @@ public class MapManager : MonoBehaviour
         {
             foreach (var tile in tileData.tiles)
             {
+                Debug.Log(tile.name);
                 dataFromTiles.Add(tile, tileData);
             }
         }
@@ -39,6 +40,19 @@ public class MapManager : MonoBehaviour
             if (tileData.destructible)
             {
                 SetTile(tilepos, null);
+            }
+
+
+            //Switch the tile to the right to a slope
+            if(tilemap.GetTile(new Vector3Int(tilepos.x + 1, tilepos.y, tilepos.z)) != null)
+            {
+                SetTile(new Vector3Int(tilepos.x + 1, tilepos.y, tilepos.z), tileData.slopeR);
+            }
+
+            //Switch the tile to the left to a slope
+            if (tilemap.GetTile(new Vector3Int(tilepos.x - 1, tilepos.y, tilepos.z)) != null)
+            {
+                SetTile(new Vector3Int(tilepos.x - 1, tilepos.y, tilepos.z), tileData.slopeL);
             }
         }
     }

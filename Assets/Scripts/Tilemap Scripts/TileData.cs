@@ -10,7 +10,7 @@ public class TileData : ScriptableObject
 
     public TileBase[] tiles;
 
-    public TileData slopeR;
+    public TileBase slopeR;
 
-    public TileData slopeL;
+    public TileBase slopeL;
 }
