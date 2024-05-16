@@ -9,7 +9,7 @@ public class Unit : MonoBehaviour, IExplodable
     public float gibForce = 2f;
 
     [SerializeField]
-    private Transform transform;
+    //private Transform transform;
 
     public GameObject[] gibs;
 

@@ -4,19 +4,12 @@ using UnityEngine;
 
 public class SpawnTroops : MonoBehaviour
 {
-    public GameObject spawnTroop;
+    public GameObject[] troops;
 
     public Transform spawnTroopPosition;
 
-    // Update is called once per frame
-    void Update()
+    public void SpawnTroop(int  spawnTroopId)
     {
-        
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Debug.Log("Spawn");
-
-            Instantiate(spawnTroop, spawnTroopPosition);
-        }
+        Instantiate(troops[spawnTroopId], spawnTroopPosition);
     }
 }

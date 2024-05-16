@@ -12,6 +12,12 @@ public class HotbarControl : MonoBehaviour
     public GameObject Hotbar3;
     public GameObject Hotbar4;
 
+    public GameObject spawnTroop1;
+    //public GameObject spawnTroop2;
+    //public GameObject spawnTroop3;
+    //public GameObject spawnTroop4;
+    public Transform spawnTroopPosition1;
+
     void Update()
     {
         if (Input.GetKeyDown("1"))
@@ -53,6 +59,7 @@ public class HotbarControl : MonoBehaviour
                 if (Input.GetKeyDown("e"))
                 {
                     Debug.Log("Unit 1 Spawned");
+                    Instantiate(spawnTroop1, spawnTroopPosition1);
                 }
                 break;
             case 2:
