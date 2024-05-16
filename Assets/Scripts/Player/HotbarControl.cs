@@ -7,15 +7,19 @@ public class HotbarControl : MonoBehaviour
 {
     int hotbarIndex = 0;
 
+    [Header("Hotbars")]
     public GameObject Hotbar1;
     public GameObject Hotbar2;
     public GameObject Hotbar3;
     public GameObject Hotbar4;
 
-    public GameObject spawnTroop1;
-    //public GameObject spawnTroop2;
+    [Header("Troopers")]
+    public GameObject spawnTroopFlag;
+    public GameObject spawnTroopChaff;
     //public GameObject spawnTroop3;
     //public GameObject spawnTroop4;
+
+    [Header("Spawn Location(s)")]
     public Transform spawnTroopPosition1;
 
     void Update()
@@ -59,13 +63,14 @@ public class HotbarControl : MonoBehaviour
                 if (Input.GetKeyDown("e"))
                 {
                     Debug.Log("Unit 1 Spawned");
-                    Instantiate(spawnTroop1, spawnTroopPosition1);
+                    Instantiate(spawnTroopFlag, spawnTroopPosition1);
                 }
                 break;
             case 2:
                 if (Input.GetKeyDown("e"))
                 {
                     Debug.Log("Unit 2 Spawned");
+                    Instantiate(spawnTroopChaff, spawnTroopPosition1);
                 }
                 break;
             case 3:
