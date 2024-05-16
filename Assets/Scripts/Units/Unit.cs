@@ -30,11 +30,16 @@ public class Unit : MonoBehaviour, IExplodable
             gib.GetComponent<Rigidbody2D>().AddForce(direction * gibForce);
         }
 
-        Destroy(gameObject);
+        Die();
     }
 
     public void MoveForward()
     {
         transform.position += transform.right * speed * Time.deltaTime;
+    }
+
+    public virtual void Die()
+    {
+        Destroy(gameObject);
     }
 }

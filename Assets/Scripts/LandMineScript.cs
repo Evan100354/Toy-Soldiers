@@ -10,5 +10,7 @@ public class LandMineScript : MonoBehaviour
         {
             collision.GetComponent<IExplodable>().Explode();
         }
+
+        this.GetComponent<IExplodable>().Explode();
     }
 }
