@@ -12,6 +12,8 @@ public class Explosive : MonoBehaviour ,IExplodable
 
     public MapManager mapManager;
 
+    public SpriteRenderer spriteRenderer;
+
     public void Explode()
     {
         this.gameObject.SetActive(false);

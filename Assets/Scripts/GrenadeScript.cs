@@ -5,8 +5,12 @@ using UnityEngine.Tilemaps;
 
 public class GrenadeScript : MonoBehaviour
 {
+    public GameObject explosionEffect;
+    public Transform grenadePos;
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        this.GetComponent<Explosive>().Explode();
+        explosionEffect.SetActive(true);
+        this.GetComponent<Explosive>().Explode();        
     }
 }

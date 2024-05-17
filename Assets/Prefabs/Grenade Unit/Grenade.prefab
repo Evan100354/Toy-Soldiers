@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -8880624443103243280}
   m_Layer: 0
   m_Name: Grenade
-  m_TagString: Untagged
+  m_TagString: Grenade
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,6 +100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0d695b3dfdbe6647948f133b73eb4b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosionEffect: {fileID: 8039767295769768472, guid: 23829a004f008d54d9618c7a45c1c797, type: 3}
+  grenadePos: {fileID: 8285170966632232988}
 --- !u!114 &-5218040387944172993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,6 +117,7 @@ MonoBehaviour:
   ExplosionRadius: 3
   ground: {fileID: 0}
   mapManager: {fileID: 0}
+  spriteRenderer: {fileID: 3176732913216162248}
 --- !u!50 &-782435166544404255
 Rigidbody2D:
   serializedVersion: 4
