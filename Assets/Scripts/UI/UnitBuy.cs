@@ -31,6 +31,23 @@ public class UnitBuy : MonoBehaviour
         SetCounts();
     }
 
+    public void SellUnit(int unitID)
+    {
+        switch (unitID)
+        {
+            case 0:
+                if (chaffCount == 0) break;
+                points += 1;
+                chaffCount--; break;
+            case 1:
+                if (grenadierCount == 0) break;
+                points += 3;
+                chaffCount++; break;
+        }
+
+        SetCounts();
+    }
+
     public void SetCounts()
     {
         chaffCountTag.text = chaffCount.ToString();
