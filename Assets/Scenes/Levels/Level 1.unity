@@ -24566,11 +24566,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8010481862268551714, guid: 239fd51837afd734c84fabcc144fa3d3, type: 3}
       propertyPath: chaffTroopCount
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8010481862268551714, guid: 239fd51837afd734c84fabcc144fa3d3, type: 3}
       propertyPath: grenadeTroopCount
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8010481862268551714, guid: 239fd51837afd734c84fabcc144fa3d3, type: 3}
       propertyPath: spawnTroopPosition
