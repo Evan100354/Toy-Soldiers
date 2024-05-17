@@ -13,9 +13,9 @@ public class SpawnTroops : MonoBehaviour
 
     private bool canSpawn = true;
 
-    public int chaffTroopCount, flagTroopCount, grenadeTroopCount;
+    public int chaffTroopCount, flagTroopCount, grenadeTroopCount, engineerTroopCount;
 
-    public TextMeshProUGUI chaffTroopCountTag, flagTroopCountTag, grenadeTroopCountTag;
+    public TextMeshProUGUI chaffTroopCountTag, flagTroopCountTag, grenadeTroopCountTag, engineerTroopCountTag;
 
     public void SpawnTroop(int spawnTroopId)
     {
@@ -40,10 +40,13 @@ public class SpawnTroops : MonoBehaviour
                 Instantiate(troops[spawnTroopId], spawnTroopPosition);
                 flagTroopCount--;
                 break;
+            case 3:
+                if (engineerTroopCount <= 0) break;
+                Debug.Log("Spawning");
+                Instantiate(troops[spawnTroopId], spawnTroopPosition);
+                engineerTroopCount--;
+                break;
         }
-
-        
-
         Invoke("ResetCanSpawn", spawnDelay);
 
         SetTroopCounters();
@@ -59,6 +62,7 @@ public class SpawnTroops : MonoBehaviour
         chaffTroopCountTag.text = chaffTroopCount.ToString();
         flagTroopCountTag.text = flagTroopCount.ToString();
         grenadeTroopCountTag.text = grenadeTroopCount.ToString();
+        engineerTroopCountTag.text = engineerTroopCount.ToString();
     }
 
     private void Start()
