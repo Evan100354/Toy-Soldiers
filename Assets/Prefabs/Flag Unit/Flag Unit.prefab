@@ -228,9 +228,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   gibForce: 200
-  gibs: []
+  gibs:
+  - {fileID: 1333260595723078060, guid: c96dca760c641644bba181c3ba113ce6, type: 3}
+  - {fileID: 1333260595723078060, guid: f009faac06d307245813b3372b8767ee, type: 3}
+  - {fileID: 1333260595723078060, guid: d6a40ccab55ff494ab24879cf0a566d6, type: 3}
+  - {fileID: 1333260595723078060, guid: 6c1f3be385b9be2459690ef0d70dcef6, type: 3}
+  - {fileID: 1333260595723078060, guid: 5eda484291447b947983f3cb18373c9a, type: 3}
+  - {fileID: 1333260595723078060, guid: b549e5f8c43ae534d8b2087240d5370d, type: 3}
   dead: 0
   unitID: 2
+  animator: {fileID: 6640502495483266908}
 --- !u!58 &4174451840517114439
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -37,7 +37,7 @@ public class Unit : MonoBehaviour, IExplodable
         Die();
     }
 
-    public void MoveForward()
+    public virtual void MoveForward()
     {
         transform.position += transform.right * speed * Time.deltaTime;
     }

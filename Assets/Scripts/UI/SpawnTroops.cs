@@ -60,4 +60,9 @@ public class SpawnTroops : MonoBehaviour
         flagTroopCountTag.text = flagTroopCount.ToString();
         grenadeTroopCountTag.text = grenadeTroopCount.ToString();
     }
+
+    private void Start()
+    {
+        SetTroopCounters();
+    }
 }
