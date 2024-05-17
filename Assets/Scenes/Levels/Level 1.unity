@@ -24560,6 +24560,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5971669152566120991, guid: 239fd51837afd734c84fabcc144fa3d3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8010481862268551714, guid: 239fd51837afd734c84fabcc144fa3d3, type: 3}
       propertyPath: flagTroopCount
       value: 1
@@ -24577,7 +24581,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 549972218}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1490386640696321171, guid: 239fd51837afd734c84fabcc144fa3d3, type: 3}
+    - {fileID: 3203161448885494806, guid: 239fd51837afd734c84fabcc144fa3d3, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 239fd51837afd734c84fabcc144fa3d3, type: 3}
