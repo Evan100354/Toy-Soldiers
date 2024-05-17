@@ -44,7 +44,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8609796684709681701}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4f040bbdfc77670488c20665188c6b63, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -96,7 +96,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4f040bbdfc77670488c20665188c6b63, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  gibForce: 10
+  gibForce: 200
   gibs:
   - {fileID: 1333260595723078060, guid: f402a928cf0817a4aadf845500767945, type: 3}
   - {fileID: 6605152040337072948, guid: f4142926b49003944bfba441687f8cf8, type: 3}
@@ -128,6 +128,8 @@ MonoBehaviour:
   - {fileID: 6628490660335457397, guid: 3e311c08e03844840a6561a1b32b8c2e, type: 3}
   - {fileID: 7238554622411679214, guid: 52f066abcf5c33040a242985b39aac70, type: 3}
   - {fileID: 5202441704081000761, guid: 0ee3a7592216ed142ae58dd39867f4af, type: 3}
+  dead: 0
+  unitID: 0
 --- !u!1 &9031081779875392065
 GameObject:
   m_ObjectHideFlags: 0

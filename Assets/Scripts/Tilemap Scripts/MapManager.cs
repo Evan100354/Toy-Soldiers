@@ -23,7 +23,6 @@ public class MapManager : MonoBehaviour
         {
             foreach (var tile in tileData.tiles)
             {
-                Debug.Log(tile.name);
                 dataFromTiles.Add(tile, tileData);
             }
         }
@@ -32,7 +31,6 @@ public class MapManager : MonoBehaviour
 
     public void ExplodeTile(Vector3Int tilepos)
     {
-        Debug.Log(tilemap.GetTile(tilepos));
         if(tilemap.GetTile(tilepos) != null)
         {
             TileData tileData = dataFromTiles[tilemap.GetTile(tilepos)];

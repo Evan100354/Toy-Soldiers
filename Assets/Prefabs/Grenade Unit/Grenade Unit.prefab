@@ -228,13 +228,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
-  gibForce: 50
+  gibForce: 200
   gibs:
   - {fileID: 1333260595723078060, guid: 7a38a57352d28ca4699a78f7434c8db4, type: 3}
   - {fileID: 1333260595723078060, guid: 6e16c64831421074c9240c63589133da, type: 3}
   - {fileID: 1333260595723078060, guid: 86767ecf117eb8640b138c08ba78c78b, type: 3}
   - {fileID: 1333260595723078060, guid: 362ae29bca479224bb7932c1058c4edd, type: 3}
   - {fileID: 1333260595723078060, guid: 773458981d61d3543873d5a880b73bd4, type: 3}
+  dead: 0
+  unitID: 1
   grenadePrefab: {fileID: 8810446208761624405, guid: ee1b7754fc5793a4191a4ed2b8d507f5, type: 3}
   launchForce: 7
 --- !u!58 &4174451840517114439

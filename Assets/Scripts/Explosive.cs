@@ -14,7 +14,9 @@ public class Explosive : MonoBehaviour ,IExplodable
 
     public void Explode()
     {
-        Debug.Log("Explode");
+        this.gameObject.SetActive(false);
+
+        //Debug.Log("Explode");
         ground = GameObject.FindWithTag("Ground").GetComponent<Tilemap>();//Get the tilemap
 
         mapManager = GameObject.FindWithTag("MapManager").GetComponent<MapManager>();
@@ -33,6 +35,17 @@ public class Explosive : MonoBehaviour ,IExplodable
             }
         }
 
-        this.gameObject.SetActive(false);
+        //Checks all items in blast radius
+        Collider2D[] collider2Ds = Physics2D.OverlapCircleAll(this.transform.position, ExplosionRadius);
+
+        foreach (Collider2D collider in collider2Ds) 
+        { 
+            GameObject gameObject = collider.gameObject;
+            // If the object has an explodable component, it will explode
+            if (gameObject.GetComponent<IExplodable>() != null) 
+            {
+                gameObject.GetComponent<IExplodable>().Explode();
+            }
+        }
     }
 }

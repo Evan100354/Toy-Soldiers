@@ -9,9 +9,11 @@ public class Unit : MonoBehaviour, IExplodable
     public float gibForce = 2f;
 
     [SerializeField]
-    //private Transform transform;
-
     public GameObject[] gibs;
+
+    public bool dead = false;
+
+    public int unitID;
 
     // Update is called once per frame
     void Update()
@@ -21,6 +23,8 @@ public class Unit : MonoBehaviour, IExplodable
 
     public void Explode()
     {
+        if (dead) return;
+
         for (int i = 0; i < gibs.Length; i++)
         {
             Vector2 direction = new Vector2((float)Random.Range(-3, 3), (float)Random.Range(0, 3));
@@ -40,6 +44,17 @@ public class Unit : MonoBehaviour, IExplodable
 
     public virtual void Die()
     {
+        if (dead) return;
+
+        dead = true;
+
         Destroy(gameObject);
+    }
+
+    public virtual void BarbedWire(BarbedWire barbedWire)
+    {
+        barbedWire.Entangled(unitID);
+
+        Die();
     }
 }

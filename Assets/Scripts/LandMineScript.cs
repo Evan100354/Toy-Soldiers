@@ -6,11 +6,10 @@ public class LandMineScript : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.GetComponent<IExplodable>() != null)
+        if(collision.GetComponent<Unit>() != null)
         {
-            collision.GetComponent<IExplodable>().Explode();
+            Debug.Log("Landmine triggered");
+            this.gameObject.GetComponent<IExplodable>().Explode();
         }
-
-        this.GetComponent<IExplodable>().Explode();
     }
 }

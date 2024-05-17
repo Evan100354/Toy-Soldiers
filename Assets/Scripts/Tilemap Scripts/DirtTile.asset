@@ -14,8 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructible: 1
   tiles:
-  - {fileID: 11400000, guid: 914887e1b328db845ad5c2e0c07eeae8, type: 2}
-  - {fileID: 11400000, guid: f1d45deba373fff4b96bfb7eaf98da7b, type: 2}
-  - {fileID: 11400000, guid: 5a0ca816cbf261b42842d5643418f4d8, type: 2}
-  slopeR: {fileID: 11400000, guid: 5a0ca816cbf261b42842d5643418f4d8, type: 2}
-  slopeL: {fileID: 11400000, guid: 5a0ca816cbf261b42842d5643418f4d8, type: 2}
+  - {fileID: 11400000, guid: 0cd4c4c252f413e4e90c15cd290454f9, type: 2}
+  - {fileID: 11400000, guid: 789cd57f3287c614ab0681a3153dfa9e, type: 2}
+  - {fileID: 11400000, guid: 38853c36c1caec34193acb9853550912, type: 2}
+  - {fileID: 11400000, guid: 2d46858be32cd904ca189405a90268c0, type: 2}
+  - {fileID: 11400000, guid: 256190fcb98b115469af4c823a6a23d2, type: 2}
+  - {fileID: 11400000, guid: e42b88b600d88234cb6fb13926fc8ba5, type: 2}
+  - {fileID: 11400000, guid: 07aa3f726c992bf449242202b3d69647, type: 2}
+  - {fileID: 11400000, guid: f36318762e1dd9b4aae7747dd215cdf1, type: 2}
+  - {fileID: 11400000, guid: 47ae550e2b433004397c90ecbcb39b02, type: 2}
+  - {fileID: 11400000, guid: 652eeb55895a48c4cb9706cffb0398cc, type: 2}
+  - {fileID: 11400000, guid: 511749ad157a86c459b37561b13ffe2c, type: 2}
+  - {fileID: 11400000, guid: 9dc57bc0210f7d941acddb711bfa2144, type: 2}
+  - {fileID: 11400000, guid: c903ef4e35e490d40b09949cb81a3bf4, type: 2}
+  - {fileID: 11400000, guid: 9babb43773dcc024a9b0e18f1714311e, type: 2}
+  - {fileID: 11400000, guid: e2527d711340be24bb876ff6020f6bc2, type: 2}
+  - {fileID: 11400000, guid: aa5aad116f3f1ae4485f1eae8b924687, type: 2}
+  - {fileID: 11400000, guid: ce2dcb2728abbb5419da1b16d229f09d, type: 2}
+  slopeR: {fileID: 11400000, guid: ce2dcb2728abbb5419da1b16d229f09d, type: 2}
+  slopeL: {fileID: 11400000, guid: aa5aad116f3f1ae4485f1eae8b924687, type: 2}
