@@ -16,7 +16,7 @@ public class HotbarControl : MonoBehaviour
     [Header("Troopers")]
     public GameObject spawnTroopFlag;
     public GameObject spawnTroopChaff;
-    //public GameObject spawnTroop3;
+    public GameObject spawnTroopGrenadier;
     //public GameObject spawnTroop4;
 
     [Header("Spawn Location(s)")]
@@ -77,6 +77,7 @@ public class HotbarControl : MonoBehaviour
                 if (Input.GetKeyDown("e"))
                 {
                     Debug.Log("Unit 3 Spawned");
+                    Instantiate(spawnTroopGrenadier, spawnTroopPosition1);
                 }
                 break;
             case 4:
